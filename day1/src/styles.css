@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  width: 1500px;
+}
+.bluebox {
+  box-sizing: border-box;
+  width: 1000px;
+  height: 1000px;
+  background-color: skyblue;
+  margin-top: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+.thisis {
+  color: white;
+  font-size: 50px;
+  margin: 50px;
+}
+.yellowbox {
+  box-sizing: border-box;
+  width: 450px;
+  height: 1000px;
+  margin-top: 100px;
+  background-color: yellow;
+  border: 5px solid grey;
+  display: inline-block;
+  vertical-align: top;
+}
+.redbox {
+  background-color: salmon;
+  height: 100px;
+  width: 1500px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.greenbox {
+  width: 100px;
+  height: 50px;
+  background-color: greenyellow;
+  position: absolute;
+  top: 80px;
+  left: 960px;
+  z-index: 1;
+}
